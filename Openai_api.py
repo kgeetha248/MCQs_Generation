@@ -18,8 +18,7 @@ warnings.filterwarnings('ignore')
 #from string import punctuation
 #file = open('chapter-4.pdf')
 
-#openai.api_key = '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'
-openai.api_key = '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'
+openai.api_key = "API_Key"
 
 def read_pdf_to_text(input_document):
     text = ''
